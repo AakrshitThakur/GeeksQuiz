@@ -8,7 +8,7 @@ export default function Footer() {
             <div className="FooterContent">
 
                 {/* GeeksQuiz icon */}
-                <div className="FooterLogo"><img src="/ImagesUsed/GeekQuizLogo.png" alt="" /></div>
+                <div className="FooterLogo"><img src="./ImagesUsed/GeekQuizLogo.png" alt="" /></div>
 
                 {/* Displaying social links */}
                 <Typography
