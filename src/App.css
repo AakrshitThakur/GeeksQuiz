@@ -49,7 +49,6 @@ body {
     .GridCell p,
     .AnsSelectedByUser {
         font-size: 0.85rem;
-        text-align: center;
     }
 
     #MCQS .MCQS_Buttons {
@@ -80,7 +79,8 @@ body {
 
     .LongBtn button a,
     #Start .LongBtn button,
-    .FormFields, #menu-category ul li,
+    .FormFields,
+    #menu-category ul li,
     #menu-difficulty ul li,
     #menu-NoOfQues ul li,
     #menu-RandomQues ul li {
