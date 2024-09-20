@@ -25,7 +25,7 @@ export default function SubmitAnswersByUser({ SetIntervalID, PlayerName, Answers
                 labels: new Array(AnswersSelectedByUser.answers.length).fill(0).map((answer, index) => (`Question ${index + 1}`)), // X-axis labels
                 datasets: [
                     {
-                        label: 'Time Taken(in sec) For This Question', // Label for the dataset
+                        label: 'Time Taken(in sec)', // Label for the dataset
                         data: AnswersSelectedByUser.TimeTakenPerQues.map(t => t), // Data points for each label
                         backgroundColor: DarkTheme ? 'rgb(251, 255, 0)' : 'rgba(0, 30, 60, 1)', // Bar color
                         borderColor: 'rgba(0, 30, 60, 1)', // Border color
