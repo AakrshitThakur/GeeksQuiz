@@ -1,0 +1,7 @@
+#LeaderBoard{
+    padding: 1rem;
+    animation: InsertIntoDOM 1s ease-in;
+}
+#LeaderBoard .LongBtn{
+    margin-top: 0.5rem;
+}

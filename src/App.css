@@ -1,0 +1,93 @@
+html,
+body {
+    height: auto;
+    max-height: none;
+    scroll-behavior: smooth;
+}
+
+/* Keyframes to display charts and leader board in smooth animation */
+@keyframes InsertIntoDOM {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0.2;
+    }
+
+    40% {
+        opacity: 0.4;
+    }
+
+    60% {
+        opacity: 0.6;
+    }
+
+    80% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Setting media queries for the whole app */
+@media (max-width: 600px) {
+
+    .LongBtn button a,
+    .LongBtn button {
+        font-size: 0.5rem;
+    }
+
+    .acknowledgement p,
+    .GridCell p, .AnsSelectedByUser {
+        font-size: 0.85rem;
+
+    }
+
+    #MCQS .MCQS_Buttons {
+        padding: 0.25rem 0 !important;
+    }
+
+    .TimeTaken {
+        font-size: 0.5rem!important;
+        width: 1.25rem!important;
+        height: 1.25rem!important;
+    }
+    nav .LongBtn{
+        display: none!important;
+    }
+    #GeekQuizLogo{
+        display: none;
+    }
+    .IconGridCell .IconName, .AboutMsg{
+        font-size: 0.9rem!important;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 960px) {
+
+    .LongBtn button a,
+    #Start .LongBtn button {
+        font-size: 0.75rem;
+    }
+}
+
+@media (min-width: 960px) {
+    .TogglerLabel{
+        font-size: 1.25rem;
+    }
+    .LongBtn button a,
+    #Start .LongBtn button {
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 375px) {
+    .TogglerLabel{
+        display: none;
+    }
+    .IconGridCell .IconName, .AboutMsg{
+        font-size: 0.75rem!important;
+    }
+}

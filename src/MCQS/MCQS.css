@@ -1,0 +1,70 @@
+#MCQS {
+    background-image: url('ImagesUsed/download.png');
+    background-color: #24292e;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    animation: InsertIntoDOM 1s ease-in;
+}
+
+#MCQS .MCQS_Buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#MCQS .MCQS_Buttons button {
+    margin: 0;
+}
+
+.GridLayout {
+    backdrop-filter: blur(0.25px);
+    background-color: rgba(255, 255, 255, 0.1);
+    /* background-color: rgba(251, 255, 0, 0.04); */
+}
+
+.GridCell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fbff00;
+}
+
+.GridCell:nth-child(n + 2):hover {
+    background-color: rgba(251, 255, 0, 0.04);
+    /* color: black; */
+}
+
+.GridCell p {
+    text-align: center;
+}
+
+.GridCell:first-of-type {
+    position: relative;
+}
+
+.AnsSelectedByUser {
+    background-color: white;
+    color: black;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.LongBtn button:disabled {
+    background-color: #001e3c;
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.TimeTaken {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0.35rem 0.35rem 0 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #001e3c;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}

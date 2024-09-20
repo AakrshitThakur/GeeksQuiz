@@ -1,0 +1,13 @@
+#DisplayUserPieChartData {
+    padding: 0.5rem;
+    animation: InsertIntoDOM 1s ease-in;
+}
+
+#DisplayUserPieChartData h2 {
+    text-align: center;
+}
+
+.PieChartContainer canvas {
+    max-width: 100%;
+    max-width: 100%;
+}

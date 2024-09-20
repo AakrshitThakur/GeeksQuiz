@@ -1,0 +1,17 @@
+#InfoText .icon {
+    margin: 0 auto;
+    width: 3rem;
+    height: 3rem;
+    padding-top: 0.25rem;
+}
+
+#InfoText .icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.IconGridCell{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0.15rem;
+}

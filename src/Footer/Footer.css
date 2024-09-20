@@ -1,0 +1,51 @@
+footer {
+    background-color: #2e2d2d;
+    color: white;
+    padding: 0.5rem;
+}
+
+.FooterContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem 0rem 2rem;
+}
+
+.FooterLogo {
+    height: 5rem;
+    width: 5rem;
+}
+
+.FooterLogo img {
+    height: 100%;
+    width: 100%;
+}
+
+.SocialIcon {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-bottom: 0.35rem;
+}
+
+.SocialIcon img {
+    height: 100%;
+    width: 100%;
+}
+.acknowledgement p{
+    margin: 0;
+}
+.acknowledgement p a{
+    color: #fbff00;
+    text-decoration-line: none;
+}
+.QuizApiLogo {
+    display: inline-block;
+    width: 3rem;
+    height: 2rem;
+}
+
+.QuizApiLogo img {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,13 @@
+#GeekQuizLogo {
+    min-width: 4rem;
+    min-height: 4rem;
+    max-width: 4rem;
+    max-height: 4rem;
+    margin-right: 0.5rem;
+    aspect-ratio: 1/1;
+}
+
+#GeekQuizLogo img {
+    width: 100%;
+    height: 100%;
+}

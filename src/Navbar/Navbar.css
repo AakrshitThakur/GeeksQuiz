@@ -1,0 +1,33 @@
+#navbar {
+    min-width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+
+nav header label {
+    margin: 0 !important;
+}
+
+.LongBtn {
+    text-align: center;
+}
+
+.LongBtn button {
+    white-space: nowrap;
+    margin: 0 1rem;
+    background-color: #001e3c;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.LongBtn button a {
+    color: white;
+    text-decoration-line: none;
+}
+
+.TogglerLabel {
+    color: #fbff00;
+    white-space: nowrap;
+}
