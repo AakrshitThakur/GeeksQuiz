@@ -23,6 +23,7 @@ export default function SelectDifficulty() {
                     <Select
                         labelId="demo-simple-select-label"
                         id="SelectDifficulty"
+                        className="FormFields"
                         name="difficulty"
                         value={difficulty}
                         label="Difficulty"

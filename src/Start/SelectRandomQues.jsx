@@ -23,6 +23,7 @@ export default function SelectRandomQues() {
                     <Select
                         labelId="demo-simple-select-label"
                         id="demo-simple-select"
+                        className="FormFields"
                         name="RandomQues"
                         value={RandomQues}
                         label="RandomQues"

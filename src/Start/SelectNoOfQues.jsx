@@ -23,6 +23,7 @@ export default function SelectNoOfQues() {
                     <Select
                         labelId="demo-simple-select-label"
                         id="SelectNoOfQues"
+                        className="FormFields"
                         name="NoOfQues"
                         value={NoOfQues}
                         label="NoOfQues"

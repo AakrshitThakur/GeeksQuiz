@@ -15,6 +15,7 @@ function NameText() {
             <TextField
                 required
                 id="NameText"
+                className="FormFields"
                 name="name"
                 label="Required"
                 value={text}

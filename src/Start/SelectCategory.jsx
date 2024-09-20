@@ -23,6 +23,7 @@ export default function SelectCategory() {
                     <Select
                         labelId="demo-simple-select-label"
                         id="SelectCategory"
+                        className="FormFields"
                         name="category"
                         value={category}
                         label="Category"

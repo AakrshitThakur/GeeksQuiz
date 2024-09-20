@@ -36,11 +36,17 @@ body {
 @media (max-width: 600px) {
 
     .LongBtn button a,
-    .LongBtn button {
-        font-size: 0.65rem;
+    .LongBtn button,
+    .FormFields,
+    #menu-category ul li,
+    #menu-difficulty ul li,
+    #menu-NoOfQues ul li,
+    #menu-RandomQues ul li {
+        font-size: 0.65rem !important;
     }
 
-    .acknowledgement p, .GridCell p,
+    .acknowledgement p,
+    .GridCell p,
     .AnsSelectedByUser {
         font-size: 0.85rem;
         text-align: center;
@@ -73,10 +79,15 @@ body {
 @media (min-width: 600px) and (max-width: 960px) {
 
     .LongBtn button a,
-    #Start .LongBtn button {
-        font-size: 0.75rem;
+    #Start .LongBtn button,
+    .FormFields, #menu-category ul li,
+    #menu-difficulty ul li,
+    #menu-NoOfQues ul li,
+    #menu-RandomQues ul li {
+        font-size: 0.75rem !important;
     }
 }
+
 
 @media (min-width: 960px) {
     .TogglerLabel {
@@ -97,6 +108,6 @@ body {
 
     .IconGridCell .IconName,
     .AboutMsg {
-        font-size: 0.75rem!important;
+        font-size: 0.75rem !important;
     }
 }
