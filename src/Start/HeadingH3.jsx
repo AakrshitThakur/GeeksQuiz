@@ -13,7 +13,7 @@ export default function HeadingH3({ text, MarginT, MarginB }) {
                     marginTop: MarginT,
                     textAlign: "center",
                     fontSize: {
-                        xs: "0.95rem",
+                        xs: "1rem",
                         sm: "1.15rem",
                         md: "1.35rem",
                     },
