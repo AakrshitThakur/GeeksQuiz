@@ -1,6 +1,6 @@
 # GeeksQuiz Live link
 https://aakrshitthakur.github.io/GeeksQuiz/
-# How To Start This Project On TwYour Own System
+# How To Start This Project On Your Own System
 ## Clone the repository
 Open your terminal or command prompt.<br>
 Navigate to the directory where you want to save the project.<br>
