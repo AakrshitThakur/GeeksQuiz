@@ -37,13 +37,13 @@ body {
 
     .LongBtn button a,
     .LongBtn button {
-        font-size: 0.5rem;
+        font-size: 0.65rem;
     }
 
-    .acknowledgement p,
-    .GridCell p, .AnsSelectedByUser {
+    .acknowledgement p, .GridCell p,
+    .AnsSelectedByUser {
         font-size: 0.85rem;
-
+        text-align: center;
     }
 
     #MCQS .MCQS_Buttons {
@@ -51,18 +51,22 @@ body {
     }
 
     .TimeTaken {
-        font-size: 0.5rem!important;
-        width: 1.25rem!important;
-        height: 1.25rem!important;
+        font-size: 0.5rem !important;
+        width: 1.25rem !important;
+        height: 1.25rem !important;
     }
-    nav .LongBtn{
-        display: none!important;
+
+    nav .LongBtn {
+        display: none !important;
     }
-    #GeekQuizLogo{
+
+    #GeekQuizLogo {
         display: none;
     }
-    .IconGridCell .IconName, .AboutMsg{
-        font-size: 0.9rem!important;
+
+    .IconGridCell .IconName,
+    .AboutMsg {
+        font-size: 0.9rem !important;
     }
 }
 
@@ -75,19 +79,24 @@ body {
 }
 
 @media (min-width: 960px) {
-    .TogglerLabel{
+    .TogglerLabel {
         font-size: 1.25rem;
     }
+
     .LongBtn button a,
-    #Start .LongBtn button {
-        font-size: 0.9rem;
+    #Start .LongBtn button,
+    #StartForm .LongBtn button {
+        font-size: 1rem;
     }
 }
+
 @media (max-width: 375px) {
-    .TogglerLabel{
+    .TogglerLabel {
         display: none;
     }
-    .IconGridCell .IconName, .AboutMsg{
+
+    .IconGridCell .IconName,
+    .AboutMsg {
         font-size: 0.75rem!important;
     }
 }
